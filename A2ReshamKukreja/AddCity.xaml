@@ -1,0 +1,25 @@
+﻿<Window x:Class="A2ReshamKukreja.AddCity"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A2ReshamKukreja"
+        mc:Ignorable="d"
+        Title="AddCity" Height="513" Width="658">
+    <Canvas>
+        <Label Content="Add City" Canvas.Left="126" Canvas.Top="35" Foreground="#FF2B0D3C" FontSize="35" FontWeight="Bold" Height="57" Width="221"/>
+        <Label Content="Country Name" Canvas.Left="85" Canvas.Top="128" FontSize="20" FontWeight="Bold" Foreground="#FF1B1D45" Height="37" Width="147"/>
+        <Label Content="City Name" Canvas.Left="122" Canvas.Top="173" FontSize="20" FontWeight="Bold" Foreground="#FF1B1D45" Height="37" Width="107"/>
+        <Label Content="Population" Canvas.Left="117" Canvas.Top="258" FontSize="20" FontWeight="Bold" Foreground="#FF1B1D45" Height="39" Width="112"/>
+        <TextBox x:Name="txtCity" Canvas.Left="250" Canvas.Top="173" TextWrapping="Wrap" Width="184" Height="38" FontSize="18"/>
+        <TextBox x:Name="txtPop" Canvas.Left="250" Canvas.Top="258" TextWrapping="Wrap" Width="184" Height="39" FontSize="18"/>
+        <Button Content="Add" Canvas.Left="132" Canvas.Top="336" Height="39" Width="86" Foreground="#FF29163D" FontWeight="Bold" FontSize="18" Click="Button_Click"/>
+        <Button Content="Close" Canvas.Left="295" Canvas.Top="336" Height="39" Width="94" Foreground="#FF29163D" FontWeight="Bold" FontSize="18" Click="Button_Click_1"/>
+        <ComboBox Name="cmbCountry" Canvas.Left="250" Canvas.Top="128" Width="184" Height="36" Loaded="cmbCountry_Loaded"/>
+        <CheckBox x:Name="chkCap" Content="Capital City" Canvas.Left="250" Canvas.Top="221" Height="37" Width="128" FontSize="19" FontWeight="Bold"/>
+        <Label Content="*" Name="lblCountry" Foreground="Red" Canvas.Left="445" Canvas.Top="133" Width="160"/>
+        <Label Content="*" Name="lblCity" Foreground="Red" Canvas.Left="445" Canvas.Top="182" Width="140"/>
+
+
+    </Canvas>
+</Window>

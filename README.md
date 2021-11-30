@@ -8,5 +8,5 @@ During the launch of application it has pre-stored cotinents, countries and citi
 on the window i.e., country's currency, population, and the capital city. 
 
 How to Use:
-Visual Studio needs to be installed and respecive NuGet packages to support the application.
+Visual Studio needs to be installed and respective NuGet packages to support the application.
 In the folder the user needs to open .sln file in order to build the solution. 
